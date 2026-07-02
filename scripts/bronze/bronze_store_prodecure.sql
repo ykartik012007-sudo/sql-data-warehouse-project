@@ -7,6 +7,11 @@ Script purpose :
     This script perform following task
   - it's truncate the table before loading data
   - it's load data into table using  " BULK INSERT " command
+
+Parameter : this store procedure doesn't accept any paramater
+
+Using Example
+	EXCE bronze.load_bronze;
  ============================================================================================== 
 */
 
