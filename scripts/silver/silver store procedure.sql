@@ -5,17 +5,9 @@
 Script Purpose :- 
           This store procedure load data from bronze layer to 
           silver layer after cleansing 
-Filtering - :
-      - handling Null and duplication Primary key
-      - removing unwanted space
-      - data normalization 
-      - invalid date range and orders
-      - data consitency between realted coloumn
-
-use note -:
-      - Check all this filter before execute this store procedure
-      - investigate any new issue is occuring or not  
-        if it's occure reslove it then execute this store procedure 
+      - it's truncate the table 
+	  - insert data into the table 
+      - create store procedure
         
 Parameter : this store procedure doesn't accept any paramater
 
